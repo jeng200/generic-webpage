@@ -1,12 +1,8 @@
-.card {
-  background: black;
-  color: whitesmoke;
-  width: 560px;
-  margin: 0 auto;
-  padding: 45px;
+body {
+  margin: 0;
 }
 
-h1, p {
+h1, h2, p {
   margin-top: 0;
 }
 
@@ -18,15 +14,49 @@ p {
   font-size: 18px;
 }
 
-.links {
-  margin-top: 32px;
-  margin-bottom: 0;
+header, section {
+  padding: 50px;
+}
+
+header {
+  background: yellow;
+  color: black;
+}
+
+.section-one {
+  background: black;
+  color: whitesmoke;
 }
 
 .text-accent {
-  color: rgb(206, 62, 206);
+  color: fuchsia;
+}
+
+.btn-yellow {
+  background: yellow;
+  color: black;
+  padding: 15px 30px;
+  display: inline-block;
+  margin-right: 18px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-yellow:hover {
+  background: whitesmoke;
+  color: black
+}
+
+.section-two .btn-yellow:hover {
+  background: black;
+  color: whitesmoke;
+}
+
+.section-two-link {
+  color: black;
 }
 
 a:hover, a:focus {
-  color: aqua;
+  color: darkgreen;
 }
