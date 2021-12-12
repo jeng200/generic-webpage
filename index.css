@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Abril Fatface', cursive;
 }
 
 h1, h2, p {
@@ -7,11 +8,11 @@ h1, h2, p {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 44px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 28px;
 }
 
 header, section {
@@ -29,10 +30,11 @@ header {
 }
 
 .text-accent {
-  color: fuchsia;
+  color: yellow;
+  font-weight: bold;
 }
 
-.btn-yellow {
+.btn {
   background: yellow;
   color: black;
   padding: 15px 30px;
@@ -43,12 +45,12 @@ header {
   font-weight: bold;
 }
 
-.btn-yellow:hover {
+.btn-accent:hover {
   background: whitesmoke;
   color: black
 }
 
-.section-two .btn-yellow:hover {
+.btn-dark:hover {
   background: black;
   color: whitesmoke;
 }
@@ -58,5 +60,5 @@ header {
 }
 
 a:hover, a:focus {
-  color: darkgreen;
+  color: yellow;
 }
